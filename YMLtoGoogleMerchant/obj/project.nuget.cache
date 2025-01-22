@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "XYNOSud3dIIiJKlIYnm69ab5E091bx5KI4MIZ2UjpR3P4l/ENmoBKlJz4yAYHC+x9/w1DCalNB+RyEyJfIWVrw==",
+  "dgSpecHash": "M7pLtg5D87Y=",
   "success": true,
-  "projectFilePath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+  "projectFilePath": "/Users/l1f35uxx/Desktop/yml2xml/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
   "expectedPackageFiles": [
-    "/root/.nuget/packages/system.xml.linq/3.5.21022.801/system.xml.linq.3.5.21022.801.nupkg.sha512",
-    "/root/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512"
+    "/Users/l1f35uxx/.nuget/packages/system.xml.linq/3.5.21022.801/system.xml.linq.3.5.21022.801.nupkg.sha512",
+    "/Users/l1f35uxx/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512",
+    "/Users/l1f35uxx/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/l1f35uxx/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/l1f35uxx/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.20/microsoft.netcore.app.host.osx-x64.7.0.20.nupkg.sha512"
   ],
   "logs": [
     {

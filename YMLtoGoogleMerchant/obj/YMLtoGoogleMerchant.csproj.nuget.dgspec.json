@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj": {}
+    "/Users/l1f35uxx/Desktop/yml2xml/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj": {}
   },
   "projects": {
-    "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj": {
+    "/Users/l1f35uxx/Desktop/yml2xml/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+        "projectUniqueName": "/Users/l1f35uxx/Desktop/yml2xml/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
         "projectName": "YMLtoGoogleMerchant",
-        "projectPath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
-        "packagesPath": "/root/.nuget/packages/",
-        "outputPath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/obj/",
+        "projectPath": "/Users/l1f35uxx/Desktop/yml2xml/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+        "packagesPath": "/Users/l1f35uxx/.nuget/packages/",
+        "outputPath": "/Users/l1f35uxx/Desktop/yml2xml/YMLtoGoogleMerchant/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/Users/l1f35uxx/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -32,7 +32,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net7.0": {
@@ -58,12 +64,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }
