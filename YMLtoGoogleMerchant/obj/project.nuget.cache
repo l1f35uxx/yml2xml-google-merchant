@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "XYNOSud3dIIiJKlIYnm69ab5E091bx5KI4MIZ2UjpR3P4l/ENmoBKlJz4yAYHC+x9/w1DCalNB+RyEyJfIWVrw==",
+  "success": true,
+  "projectFilePath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/system.xml.linq/3.5.21022.801/system.xml.linq.3.5.21022.801.nupkg.sha512",
+    "/root/.nuget/packages/yamldotnet/16.3.0/yamldotnet.16.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.Linq 3.5.21022.801' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Xml.Linq",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

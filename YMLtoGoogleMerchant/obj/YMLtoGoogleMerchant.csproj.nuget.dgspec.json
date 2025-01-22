@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj": {}
+  },
+  "projects": {
+    "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+        "projectName": "YMLtoGoogleMerchant",
+        "projectPath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/root/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Xml.Linq": {
+              "target": "Package",
+              "version": "[3.5.21022.801, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[16.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

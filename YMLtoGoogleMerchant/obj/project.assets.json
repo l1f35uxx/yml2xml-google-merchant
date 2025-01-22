@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "System.Xml.Linq/3.5.21022.801": {
+        "type": "package",
+        "compile": {
+          "lib/net20/System.Xml.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net20/System.Xml.Linq.dll": {}
+        }
+      },
+      "YamlDotNet/16.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/YamlDotNet.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Xml.Linq/3.5.21022.801": {
+      "sha512": "U6hdQ1sCnMD/s2zqKl23g4Obdovr1ZUnrF1x+NRpaoZBeZX5PSwcp1dgvgvJaRsYZgwUzrC+tj9klb0mMnHUcQ==",
+      "type": "package",
+      "path": "system.xml.linq/3.5.21022.801",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/System.Xml.Linq.dll",
+        "system.xml.linq.3.5.21022.801.nupkg.sha512",
+        "system.xml.linq.nuspec"
+      ]
+    },
+    "YamlDotNet/16.3.0": {
+      "sha512": "SgMOdxbz8X65z8hraIs6hOEdnkH6hESTAIUa7viEngHOYaH+6q5XJmwr1+yb9vJpNQ19hCQY69xbFsLtXpobQA==",
+      "type": "package",
+      "path": "yamldotnet/16.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "images/yamldotnet.png",
+        "lib/net47/YamlDotNet.dll",
+        "lib/net47/YamlDotNet.xml",
+        "lib/net6.0/YamlDotNet.dll",
+        "lib/net6.0/YamlDotNet.xml",
+        "lib/net8.0/YamlDotNet.dll",
+        "lib/net8.0/YamlDotNet.xml",
+        "lib/netstandard2.0/YamlDotNet.dll",
+        "lib/netstandard2.0/YamlDotNet.xml",
+        "lib/netstandard2.1/YamlDotNet.dll",
+        "lib/netstandard2.1/YamlDotNet.xml",
+        "yamldotnet.16.3.0.nupkg.sha512",
+        "yamldotnet.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "System.Xml.Linq >= 3.5.21022.801",
+      "YamlDotNet >= 16.3.0"
+    ]
+  },
+  "packageFolders": {
+    "/root/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+      "projectName": "YMLtoGoogleMerchant",
+      "projectPath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/YMLtoGoogleMerchant.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/yml2xmlgooglemerchant/YMLtoGoogleMerchant/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/root/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "System.Xml.Linq": {
+            "target": "Package",
+            "version": "[3.5.21022.801, )"
+          },
+          "YamlDotNet": {
+            "target": "Package",
+            "version": "[16.3.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.119/RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Xml.Linq 3.5.21022.801' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Xml.Linq",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}
